@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 400; */
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+
+}
+h3{
+    line-height: 40px;
+}
+P{
+    color: dimgray;
+}
+img{
+    max-width: 100%;
+}
+.row-col{
+    display: flex;
+
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero{
+    height: 100vh;
+    
+   
+    background-image:url(./top-banner.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.orange-heghlight{
+    color: orange;
+
+}
+.half-width{
+    width: 50%;
+    
+
+}
+
+
+.btn{
+    display: inline-block;
+    margin: 20px 0 0;
+    text-decoration: none;
+    padding: 9px 17px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    border-radius: 5px;
+    color: white;
+}
+
+.dtails{
+    padding-left: 50px;
+}
+.hero-2{
+    background-image: url(./dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    margin: 100px  0 40px;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+}
+.card-area{
+        background-image: url(./exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+
+}
+.card{
+    width: 100%;
+    height: 250px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px 30px;
+    border-left: 6px solid;
+    
+
+}
+.card-border-1{
+    border-image: linear-gradient(1800deg,rgb(15, 12, 11) ,rgb(255, 38, 0));
+    border-image-slice: 1;
+}
+.card-border-2{
+    border-image: linear-gradient(180deg,rgb(0, 1, 44),rgb(0, 225, 255));
+    border-image-slice: 1;
+}
+footer{
+    margin: 40px 0 5px;
+    text-align: center;
+}
+
+
